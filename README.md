@@ -171,12 +171,6 @@ This project is licensed under the GNU General Public License v2.0 - see the [LI
 - Icons from various open-source libraries
 - Inspiration from luxury restaurant websites worldwide
 
-## 📞 Contact
-
-For support or questions:
-- Email: info@parsa-restaurant.com
-- Phone: +1 (212) 555-8900
-
 ---
 
 Made with love from Parsa Parichehreh
