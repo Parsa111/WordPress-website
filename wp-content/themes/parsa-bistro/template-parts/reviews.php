@@ -38,7 +38,7 @@ if (!defined('ABSPATH')) {
             <div class="review-card">
                 <div class="review-stars">★★★★★</div>
                 <div class="review-text">
-                    "Best pasta I have tasted in New York. The truffle noodles and the warm chocolate dessert were absolutely amazing."
+                    "Best pasta I have tasted in Toronto. The truffle noodles and the warm chocolate dessert were absolutely amazing."
                 </div>
                 <div class="review-author">
                     <div class="author-avatar">ER</div>

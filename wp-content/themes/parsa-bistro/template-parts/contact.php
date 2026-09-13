@@ -25,9 +25,9 @@ if (!defined('ABSPATH')) {
                 <div style="font-size: 2rem; margin-bottom: 1rem;">📍</div>
                 <h3 style="margin-bottom: 0.5rem; color: var(--gold-primary);">Location</h3>
                 <p style="color: var(--text-secondary);">
-                    123 Fifth Avenue<br>
-                    New York, NY 10001<br>
-                    United States
+                    123 Yonge Street<br>
+                    Toronto, ON M5V 1A1<br>
+                    Canada
                 </p>
             </div>
 

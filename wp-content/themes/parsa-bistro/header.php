@@ -39,7 +39,7 @@ if (!defined('ABSPATH')) {
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                     <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                123 Fifth Avenue, New York, NY 10001
+                123 Yonge Street, Toronto, ON M5V 1A1
             </span>
         </div>
         <div class="top-bar-info">
