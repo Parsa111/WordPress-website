@@ -1,8 +1,9 @@
 # 🍽️ Parsa Restaurant & Bistro
 
-A modern, elegant restaurant website featuring digital menus, real-time table reservations, and a luxurious dark theme with gold accents.
+A modern, elegant restaurant website built with WordPress and Supabase, featuring digital menus, real-time table reservations, and a luxurious dark theme with gold accents.
 
-![Parsa Restaurant](https://img.shields.io/badge/Version-1.0.0-gold)
+![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue)
+![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green)
 ![License](https://img.shields.io/badge/License-GPL--2.0-blue)
 ![Status](https://img.shields.io/badge/Status-Production-success)
 
@@ -29,12 +30,22 @@ Visit the live site: [Parsa Restaurant](https://parsa-restaurant.com)
 
 ## 🛠️ Technologies Used
 
+- **WordPress 6.0+** - Content management system
+- **Supabase** - PostgreSQL database backend
+- **PHP 7.4+** - Server-side scripting
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling with CSS variables and Flexbox/Grid
 - **JavaScript (ES6+)** - Interactive features
-- **Node.js** - Local development server
 
 ## 📦 Installation
+
+### Prerequisites
+- Web server (Apache/Nginx) or PHP-enabled hosting
+- Supabase account with PostgreSQL database
+- PHP 7.4 or higher
+- WordPress 6.0 or higher
+
+### Setup Instructions
 
 1. Clone the repository:
 ```bash
@@ -42,20 +53,32 @@ git clone https://github.com/Parsa111/WordPress-website.git
 cd WordPress-website
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+2. Configure Supabase database:
+   - Create a new project in Supabase
+   - Get your database credentials (host, name, username, password)
+   - Update `wp-config.php` with your Supabase credentials
 
-3. Start the development server:
-```bash
-node server.js
-```
+3. Install PG4WP plugin (for PostgreSQL support):
+   - Download PG4WP from https://github.com/Neurodynamic/PG4WP
+   - Extract to `wp-content/plugins/pg4wp/`
 
-4. Open your browser and navigate to:
-```
-http://localhost:3000
-```
+4. Upload to your web server:
+   - Upload all files to your web server's root directory
+   - Ensure `wp-content` directory is writable
+
+5. Run WordPress installation:
+   - Visit your site URL in a browser
+   - Follow the WordPress installation wizard
+   - Create your admin account
+
+6. Activate the Parsa Bistro theme:
+   - Go to Appearance > Themes in WordPress admin
+   - Click "Activate" on Parsa Bistro theme
+
+7. Configure the theme:
+   - Go to Appearance > Menus to set up navigation
+   - Add menu items through the "Menu Items" custom post type
+   - Add specials through the "Specials" custom post type
 
 ## 📁 Project Structure
 
