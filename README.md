@@ -20,18 +20,14 @@ A modern, elegant restaurant website built with WordPress and Supabase, featurin
 
 ## 🚀 Live Demo
 
-Visit the live site: [Parsa Restaurant](https://parsa-restaurant.com)
+**Frontend:** [https://wordpress-website2.vercel.app/](https://wordpress-website2.vercel.app/)
 
-## 📸 Screenshots
-
-![Hero Section](https://via.placeholder.com/800x400/0a0b0e/d4af37?text=Hero+Section)
-![Menu Section](https://via.placeholder.com/800x400/0a0b0e/d4af37?text=Menu+Section)
-![Reservation Form](https://via.placeholder.com/800x400/0a0b0e/d4af37?text=Reservation+Form)
+**Admin Panel:** [https://wordpress-website2.vercel.app/admin](https://wordpress-website2.vercel.app/admin)
 
 ## 🛠️ Technologies Used
 
-- **WordPress 6.0+** - Content management system
-- **Supabase** - PostgreSQL database backend
+- **Frontend:** WordPress 6.0+ - Content management system
+- **Backend:** Supabase - PostgreSQL database
 - **PHP 7.4+** - Server-side scripting
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling with CSS variables and Flexbox/Grid
@@ -164,7 +160,7 @@ This project is licensed under the GNU General Public License v2.0 - see the [LI
 
 ## 👨‍🍳 Author
 
-**Parsa Restaurant Team**
+**Parsa Parichehreh**
 
 - Website: [https://parsa-restaurant.com](https://parsa-restaurant.com)
 - GitHub: [@Parsa111](https://github.com/Parsa111)
@@ -183,4 +179,4 @@ For support or questions:
 
 ---
 
-Made with ❤️ by Parsa Restaurant Team
+Made with love from Parsa Parichehreh
