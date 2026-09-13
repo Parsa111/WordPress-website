@@ -1,18 +1,6 @@
 <?php
 /**
- * A pseudo-cron daemon for scheduling WordPress tasks.
- *
- * WP-Cron is triggered when the site receives a visit. In the scenario
- * where a site may not receive enough visits to execute scheduled tasks
- * in a timely manner, this file can be called directly or via a server
- * cron daemon for X number of times.
- *
- * Defining DISABLE_WP_CRON as true and calling this file directly are
- * mutually exclusive and the latter does not rely on the former to work.
- *
- * The HTTP request to this file will not slow down the visitor who happens to
- * visit when a scheduled cron event runs.
- *
+ 
  * @package WordPress
  */
 
@@ -50,9 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 wp_raise_memory_limit( 'cron' );
 
 /**
- * Retrieves the cron lock.
- *
- * Returns the uncached `doing_cron` transient.
+
  *
  * @ignore
  * @since 3.3.0
@@ -67,8 +53,6 @@ function _get_cron_lock() {
 	$value = 0;
 	if ( wp_using_ext_object_cache() ) {
 		/*
-		 * Skip local cache and force re-fetch of doing_cron transient
-		 * in case another process updated the cache.
 		 */
 		$value = wp_cache_get( 'doing_cron', 'transient', true );
 	} else {

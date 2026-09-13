@@ -27,7 +27,7 @@ if ( force_ssl_admin() && ! is_ssl() ) {
  *
  * @since 2.1.0
  *
- * @global string      $error         Login error message set by deprecated pluggable wp_login() function
+ * @global string      $error         
  *                                    or plugins replacing it.
  * @global bool|string $interim_login Whether interim login modal is being displayed. String 'success'
  *                                    upon successful login.
